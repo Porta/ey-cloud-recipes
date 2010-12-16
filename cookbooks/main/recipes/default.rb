@@ -48,6 +48,9 @@
 #uncomment to run the resque recipe
 require_recipe "resque"
 
+ey_cloud_report 'resque' do
+  message "Corre resque. A los botes!"
+end
 #uncomment to run the redis recipe
 #require_recipe "redis"
 
